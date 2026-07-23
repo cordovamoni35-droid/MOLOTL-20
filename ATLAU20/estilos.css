@@ -1,0 +1,1006 @@
+/* CONFIGURACIÓN GENERAL */
+
+body {
+    margin: 0;
+    background-color: #f8f5ed;
+    color: #294238;
+    font-family: Arial, sans-serif;
+}
+
+
+/* ENCABEZADO */
+
+.encabezado {
+    background-color: #294238;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+
+/* LOGO */
+
+.logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #d4a72c;
+}
+
+
+/* MENÚ */
+
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #d4a72c;
+}
+
+
+/* PORTADA */
+
+.portada {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* TEXTO DE PORTADA */
+
+.texto-portada {
+    max-width: 700px;
+}
+
+.etiqueta {
+    color: #8b1e3f;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+h1 {
+    color: #294238;
+    font-size: 65px;
+    margin: 10px 0;
+}
+
+.eslogan {
+    color: #b48a28;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.descripcion {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* BOTÓN */
+
+.boton {
+    display: inline-block;
+    background-color: #8b1e3f;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.boton:hover {
+    background-color: #b48a28;
+}
+
+/* SECCIÓN PRODUCTO */
+
+.producto {
+    background-color: white;
+    padding: 80px 60px;
+    text-align: center;
+}
+
+
+/* TÍTULO DE LA SECCIÓN */
+
+.titulo-seccion {
+    max-width: 750px;
+    margin: 0 auto 50px;
+}
+
+.titulo-seccion h2 {
+    color: #294238;
+    font-size: 38px;
+    margin: 15px 0;
+}
+
+.titulo-seccion p {
+    color: #555555;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* TARJETAS */
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+
+/* TARJETA INDIVIDUAL */
+
+.tarjeta {
+    background-color: #f8f5ed;
+    width: 220px;
+    min-height: 260px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s;
+}
+
+
+/* ICONOS */
+
+.icono {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+
+/* TÍTULOS */
+
+.tarjeta h3 {
+    color: #294238;
+    font-size: 18px;
+}
+
+
+/* TEXTO */
+
+.tarjeta p {
+    color: #555555;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+/* EFECTO AL PASAR EL RATÓN */
+
+.tarjeta:hover {
+    transform: translateY(-10px);
+}
+
+/* SECCIÓN INFORMACIÓN NUTRICIONAL */
+
+.nutricion {
+    background-color: #f8f5ed;
+    padding: 80px 60px;
+    text-align: center;
+}
+
+
+/* CONTENEDOR */
+
+.nutricion-contenido {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    max-width: 900px;
+    margin: 50px auto;
+    flex-wrap: wrap;
+}
+
+
+/* TARJETA PRINCIPAL */
+
+.tarjeta-nutricional {
+    background-color: #294238;
+    color: white;
+    width: 320px;
+    padding: 40px 30px;
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+.icono-nutricional {
+    font-size: 55px;
+}
+
+
+.tarjeta-nutricional h3 {
+    color: #d4a72c;
+    font-size: 25px;
+}
+
+
+.tarjeta-nutricional p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+
+/* DATOS DEL PRODUCTO */
+
+.datos-producto {
+    background-color: white;
+    width: 320px;
+    padding: 40px 30px;
+    border-radius: 25px;
+    text-align: left;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+.datos-producto h3 {
+    color: #294238;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+.datos-producto ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.datos-producto li {
+    padding: 12px 0;
+    border-bottom: 1px solid #eeeeee;
+    color: #555555;
+}
+
+
+/* AVISO */
+
+.aviso-nutricional {
+    max-width: 800px;
+    margin: 30px auto 0;
+    padding: 25px;
+    background-color: #fff8df;
+    border-left: 5px solid #d4a72c;
+    border-radius: 10px;
+    text-align: left;
+}
+
+
+.aviso-nutricional strong {
+    color: #8b1e3f;
+    font-size: 18px;
+}
+
+
+.aviso-nutricional p {
+    color: #555555;
+    line-height: 1.6;
+}
+
+/* SECCIÓN DE EJERCICIO */
+
+.ejercicio {
+    background-color: white;
+    padding: 80px 60px;
+    text-align: center;
+}
+
+
+/* CONTENEDOR DE LAS RUTINAS */
+
+.ejercicio .rutina {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    min-height: 250px;
+    margin: 15px;
+    padding: 30px 20px;
+    background-color: #f8f5ed;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s;
+}
+
+
+/* ICONO DE CADA RUTINA */
+
+.icono-rutina {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+
+/* TÍTULO DE LA RUTINA */
+
+.rutina h3 {
+    color: #294238;
+    font-size: 20px;
+}
+
+
+/* TEXTO DE LA RUTINA */
+
+.rutina p {
+    color: #555555;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+/* EFECTO AL PASAR EL RATÓN */
+
+.ejercicio .rutina:hover {
+    transform: translateY(-10px);
+}
+
+/* BOTONES DE LAS RUTINAS */
+
+.boton-rutina {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #294238;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+
+/* EFECTO AL PASAR EL RATÓN */
+
+.boton-rutina:hover {
+    background-color: #d4a72c;
+}
+
+/* =========================================
+   VENTANA EMERGENTE DE RUTINAS
+   ========================================= */
+
+.modal {
+   display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(41, 66, 56, 0.75);
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* CONTENIDO DE LA VENTANA */
+
+.contenido-modal {
+    position: relative;
+    background-color: #f8f5ed;
+    width: 90%;
+    max-width: 550px;
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+
+/* TÍTULO DE LA RUTINA */
+
+.contenido-modal h2 {
+    color: #294238;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+
+/* INFORMACIÓN DE LA RUTINA */
+
+#informacionRutina {
+    color: #555555;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+
+/* BOTÓN PARA CERRAR */
+
+.cerrar-modal {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    border: none;
+    background: none;
+    color: #8b1e3f;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* EFECTO AL PASAR EL RATÓN SOBRE LA X */
+
+.cerrar-modal:hover {
+    color: #d4a72c;
+}
+
+/* =========================================
+   SECCIÓN DE RECETAS SALUDABLES
+========================================= */
+
+.recetas {
+    padding: 80px 8%;
+    background-color: #f8f5ed;
+    text-align: center;
+}
+
+
+/* TÍTULO DE LA SECCIÓN */
+
+.recetas .titulo-seccion {
+    max-width: 750px;
+    margin: 0 auto 50px;
+}
+
+.recetas .etiqueta {
+    color: #7b9e45;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.recetas .titulo-seccion h2 {
+    font-size: 38px;
+    color: #3d4f2f;
+    margin-bottom: 15px;
+}
+
+.recetas .titulo-seccion p {
+    color: #666;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* CONTENEDOR DE LAS TARJETAS */
+
+.contenedor-recetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* TARJETA */
+
+.tarjeta-receta {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.10);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* EFECTO AL PASAR EL MOUSE */
+
+.tarjeta-receta:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.18);
+}
+
+
+/* IMAGEN */
+
+.imagen-receta {
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+}
+
+.imagen-receta img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+
+/* EFECTO DE ZOOM EN IMAGEN */
+
+.tarjeta-receta:hover .imagen-receta img {
+    transform: scale(1.08);
+}
+
+
+/* CONTENIDO */
+
+.contenido-receta {
+    padding: 25px;
+    text-align: left;
+}
+
+
+/* CATEGORÍA */
+
+.categoria-receta {
+    color: #7b9e45;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+/* TÍTULO */
+
+.contenido-receta h3 {
+    color: #3d4f2f;
+    font-size: 23px;
+    margin: 12px 0;
+}
+
+
+/* DESCRIPCIÓN */
+
+.contenido-receta p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+/* DATOS DE LA RECETA */
+
+.datos-receta {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding-top: 15px;
+    border-top: 1px solid #eeeeee;
+    color: #777;
+    font-size: 14px;
+}
+
+
+/* BOTÓN */
+
+.btn-receta {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 30px;
+    background-color: #7b9e45;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+/* EFECTO DEL BOTÓN */
+
+.btn-receta:hover {
+    background-color: #5f7f32;
+    transform: scale(1.03);
+}
+
+/* =========================================
+   VENTANA EMERGENTE DE RECETAS
+========================================= */
+
+.modal-receta {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+/* CONTENIDO DE LA VENTANA DE RECETA */
+
+.contenido-modal-receta {
+    position: relative;
+    background-color: #f8f5ed;
+    width: 90%;
+    max-width: 550px;
+    max-height: 85vh;
+    overflow-y: auto;
+
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+}
+
+
+/* TÍTULO DE LA RECETA */
+
+.contenido-modal-receta h2 {
+    color: #294238;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+
+/* CONTENIDO DE LA RECETA */
+
+#contenidoReceta {
+    color: #555555;
+    font-size: 17px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+
+/* BOTÓN PARA CERRAR LA RECETA */
+
+.cerrar-receta {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+
+    border: none;
+    background: none;
+
+    color: #8b1e3f;
+    font-size: 32px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+/* EFECTO AL PASAR EL RATÓN SOBRE LA X */
+
+.cerrar-receta:hover {
+    color: #d4a72c;
+}
+
+
+/* TÍTULOS DENTRO DE LA RECETA */
+
+#contenidoReceta h4 {
+    color: #294238;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* LISTA DE INGREDIENTES */
+
+#contenidoReceta ul {
+    text-align: left;
+    padding-left: 25px;
+}
+
+
+/* PÁRRAFOS DE LA RECETA */
+
+#contenidoReceta p {
+    margin-bottom: 15px;
+}
+
+/* =========================================
+   SECCIÓN DE CONSEJOS DE ALIMENTACIÓN
+========================================= */
+
+.consejos {
+    padding: 80px 8%;
+    background-color: #f5f8f1;
+    text-align: center;
+}
+
+
+/* TÍTULO DE LA SECCIÓN */
+
+.titulo-seccion {
+    max-width: 750px;
+    margin: 0 auto 50px;
+}
+
+.titulo-seccion .etiqueta {
+    color: #6b8e23;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.titulo-seccion h2 {
+    color: #355834;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.titulo-seccion > p:last-child {
+    color: #666;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* CONTENEDOR DE LAS TARJETAS */
+
+.contenedor-consejos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+/* TARJETAS */
+
+.tarjeta-consejo {
+    background-color: white;
+    padding: 35px 25px;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* EFECTO AL PASAR EL MOUSE */
+
+.tarjeta-consejo:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+/* ICONOS */
+
+.icono-consejo {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+    background-color: #e5efdc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+
+/* TÍTULO DE CADA CONSEJO */
+
+.tarjeta-consejo h3 {
+    color: #355834;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+
+/* TEXTO */
+
+.tarjeta-consejo p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+
+/* =========================================
+   DISEÑO RESPONSIVO
+========================================= */
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+    .contenedor-consejos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+
+    .consejos {
+        padding: 60px 5%;
+    }
+
+    .titulo-seccion h2 {
+        font-size: 28px;
+    }
+
+    .contenedor-consejos {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* =========================================
+   SECCIÓN COLECCIÓN DE LOS 8 GORRIONES
+========================================= */
+
+.seccion-gorriones {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+
+/* ENCABEZADO DE LA SECCIÓN */
+
+.encabezado-gorriones {
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+}
+
+.encabezado-gorriones h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.encabezado-gorriones p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* COLECCIÓN DE TARJETAS */
+
+.coleccion-gorriones {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 25px;
+}
+
+
+/* TARJETA DE CADA GORRIÓN */
+
+.tarjeta-gorrion {
+    padding: 20px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    transition: transform 0.3s ease;
+}
+
+
+/* ESPACIO DE LA IMAGEN */
+
+.imagen-gorrion {
+    width: 100%;
+    height: 250px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+
+/* IMAGEN DEL GORRIÓN */
+
+.imagen-gorrion img {
+    max-width: 100%;
+    max-height: 100%;
+
+    object-fit: contain;
+}
+
+
+/* NOMBRE DE LA CARRERA */
+
+.tarjeta-gorrion h3 {
+    font-size: 26px;
+
+    margin: 15px 0 10px;
+}
+
+
+/* DESCRIPCIÓN */
+
+.tarjeta-gorrion p {
+    font-size: 15px;
+
+    line-height: 1.5;
+
+    min-height: 70px;
+}
+
+
+/* BOTÓN */
+
+.tarjeta-gorrion button {
+    padding: 10px 20px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    transition: transform 0.3s ease;
+}
+
+
+/* EFECTO AL PASAR EL RATÓN */
+
+.tarjeta-gorrion:hover {
+    transform: translateY(-8px);
+}
+
+.tarjeta-gorrion button:hover {
+    transform: scale(1.05);
+}
+
+
+/* ADAPTACIÓN PARA PANTALLAS PEQUEÑAS */
+
+@media (max-width: 900px) {
+
+    .coleccion-gorriones {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .coleccion-gorriones {
+        grid-template-columns: 1fr;
+    }
+
+}
